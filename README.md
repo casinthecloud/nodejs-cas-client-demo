@@ -1,9 +1,9 @@
-Node.js webapp protected by connect-cas (https://github.com/AceMetrix/connect-cas)
+Node.js webapp protected by the connect-cas client (https://github.com/AceMetrix/connect-cas)
 ==
 
 ![English](https://www.casinthecloud.com/img/other/flag_en.png)
 
-Demo using the connect-cas client (v1.4.3) to protect a Express web application (`npm install express`, `npm install connect-cas`, `npm install express-session`).
+Demo using the connect-cas client (v1.4.3) to protect a Express web application (`npm install express`, `npm install express-session`, `npm install connect-cas`).
 
 Use **npm start** to start the webapp on **http://localhost:3000**. The url 'protected/index' is protected and should trigger a CAS authentication.
 
@@ -22,7 +22,7 @@ and the following service:
 
 ![Français](https://www.casinthecloud.com/img/other/flag_fr.png)
 
-Démo utilisant le client connect-cas (v1.4.3) pour protéger une application web Express (`npm install express`, `npm install connect-cas`, `npm install express-session`).
+Démo utilisant le client connect-cas (v1.4.3) pour protéger une application web Express (`npm install express`, `npm install express-session`, `npm install connect-cas`).
 
 Utilisez **npm start** pour lancer le site web sur **http://localhost:3000**. L'url 'protected/index' est protégée et déclenche une authentification CAS.
 
