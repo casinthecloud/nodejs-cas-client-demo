@@ -7,14 +7,14 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var cas = require('connect-cas');
 
-cas.configure({ 'host': 'freeuse1.casinthecloud.com',
+cas.configure({ 'host': 'localhost:8888',
 paths: {
-        validate: '/leleujgithub/validate', 
-        serviceValidate: '/leleujgithub/p3/serviceValidate', // CAS 3.0
-        proxyValidate: '/leleujgithub/p3/proxyValidate', // CAS 3.0
-        proxy: '/leleujgithub/proxy',
-        login: '/leleujgithub/login',
-        logout: '/leleujgithub/logout'
+        validate: '/cas/validate', 
+        serviceValidate: '/cas/p3/serviceValidate', // CAS 3.0
+        proxyValidate: '/cas/p3/proxyValidate', // CAS 3.0
+        proxy: '/cas/proxy',
+        login: '/cas/login',
+        logout: '/cas/logout'
     }
 });
 
