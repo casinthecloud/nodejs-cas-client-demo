@@ -7,14 +7,14 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var cas = require('connect-cas');
 
-cas.configure({ 'host': 'localhost:8888',
+cas.configure({ 'host': 'cas-server:8080', 'protocol': 'http',
 paths: {
-        validate: '/cas/validate', 
-        serviceValidate: '/cas/p3/serviceValidate', // CAS 3.0
-        proxyValidate: '/cas/p3/proxyValidate', // CAS 3.0
-        proxy: '/cas/proxy',
-        login: '/cas/login',
-        logout: '/cas/logout'
+        validate: '/validate',
+        serviceValidate: '/p3/serviceValidate', // CAS 3.0
+        proxyValidate: '/p3/proxyValidate', // CAS 3.0
+        proxy: '/proxy',
+        login: '/login',
+        logout: '/logout'
     }
 });
 

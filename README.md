@@ -9,4 +9,4 @@ Most of the configuration is defined in the **app.js** file.
 
 A specific logout application url is available at: http://localhost:3000/logout.
 
-Run your CAS server on http://localhost:8888/cas.
+Run your CAS server via [casinthecloud](https://github.com/casinthecloud/casinthecloud).
